@@ -8,7 +8,7 @@ function filterWordsStartingBy(array, letter) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-const letter = prompt("Scegli pari o dispari (scrivi 'pari' o 'dispari'):");
+const letter = prompt("Inserisci la lettera che vuoi filtrare: ");
 const result = filterWordsStartingBy(names, letter);
 console.log(result);
 
