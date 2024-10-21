@@ -4,9 +4,8 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function getFirstChar(names) {
-  const firstChar = []; // Crea un array vuoto per memorizzare le iniziali
-
-  // Costrutto for che cicla attraverso ogni nome nell'array di nomi
+  const firstChar = [];
+  // Costrutto for che cicla attraverso ogni nome nell'array
   for (let i = 0; i < names.length; i++) {
     const name = names[i]; // Prendi il nome corrente
     const currentElement = name.split(" "); // Divide il nome in parole
